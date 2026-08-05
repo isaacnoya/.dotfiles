@@ -10,7 +10,7 @@ exec-on-workspace-change = ['/bin/bash', '-c',
 ]
 
 # Start AeroSpace at login
-start-at-login = false
+start-at-login = true
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -93,7 +93,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-e = 'exec-and-forget open -n /Applications/Emacs.app'
     alt-f = 'exec-and-forget open -n /Applications/Firefox.app'
     alt-v = 'exec-and-forget open -n "/Applications/Visual\ Studio\ Code.app"'	
-    alt-shift-r = 'exec-and-forget sketchybar --reload'
+    cmd-shift-r = 'exec-and-forget sketchybar --reload'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-slash = 'layout tiles horizontal vertical'
